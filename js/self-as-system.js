@@ -33,7 +33,7 @@ function preload() {
 function setup() {
     //canvas
     c = createCanvas(int(windowWidth * 2 /3), int(windowHeight * 3 / 4));
-    c.class('maincanvas');
+    c.id('maincanvas');
 
     pg = createGraphics(width, height);
 

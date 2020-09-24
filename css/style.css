@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: crosshair;
 }
 header {
     display: flex;
@@ -31,6 +32,7 @@ h1 {
     padding: 1em;
     margin: 0;
     font-size: 54px;
+    user-select: none; 
 }
 h2 {
     font-weight: 100;
@@ -38,6 +40,7 @@ h2 {
     padding: 1em;
     margin: 0;
     font-size: 32px;
+    user-select: none; 
 }
 footer {
     font-size: 11px;
@@ -52,6 +55,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    user-select: none; 
 }
 button {
     font-size: 14px;
@@ -63,7 +67,7 @@ button {
     border: 0.05px solid;
     background-color: rgba(0,0,0);
 }
-.maincanvas {
+#maincanvas {
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -73,7 +77,26 @@ button {
     width: 100vw;
     height: 100vh;
     font-weight: 100;
-    letter-spacing: 0.1em;
-    padding: 1em;
-    margin: 0;
+    letter-spacing: 0.08em;
+    /* padding: 1em;
+    margin: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction > p {
+    width: 50vw;
+    text-align: center;
+    line-height: 1.5em;
+}
+b {
+    font-weight: 400;
+}
+a {
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: line-through;
 }
