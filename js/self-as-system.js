@@ -27,7 +27,7 @@ let dRange = 120;
 function preload() {
     mediaObj = loadJSON("data/media.json");
     accountObj = loadJSON("data/account_history.json");
-    likeImg = loadImage("../images/like@0,5x.png");
+    likeImg = loadImage("images/like-05.png");
 }
 
 function setup() {
